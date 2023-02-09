@@ -19,17 +19,19 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base','project'],
 
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
+        'data/project2_stages.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
+        
     ],
 
     'application': 'True',

@@ -20,7 +20,7 @@
       <field name="inherit_id" ref="project.edit_project" />
       <field name="arch" type="xml">
         <field name="partner_id" position="after">
-          <field name="proyecto2" />
+          <!-- <field name="proyecto2" /> -->
         </field>
       </field>
     </record>

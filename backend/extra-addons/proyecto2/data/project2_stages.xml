@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo noupdate="1">
+  <!-- Project tags -->
+  <record id="project_stage_sin_iniciar" model="project.task.type">
+    <field name="name">Sin iniciar</field>
+  </record>
+  <record id="project_stage_en_progreso" model="project.task.type">
+    <field name="name">En progreso</field>
+  </record>
+  <record id="project_stage_bloqueado" model="project.task.type">
+    <field name="name">Bloqueado</field>
+  </record>
+  <record id="project_stage_terminado" model="project.task.type">
+    <field name="name">Terminado</field>
+  </record>
+  <record id="project_stage_revisado" model="project.task.type">
+    <field name="name">Revisado</field>
+  </record>
+</odoo>
